@@ -4,6 +4,9 @@ kind: Kustomization
 images:
 - name: /
   newName: /
+- name: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/hanggi-ecr
+  newName: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/hanggi-ecr
+  newTag: v0.1.10
 - name: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/item-service
   newName: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/item-service
   newTag: v0.0.1
