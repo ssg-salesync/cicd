@@ -6,7 +6,7 @@ images:
   newName: /
 - name: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/hanggi-ecr
   newName: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/hanggi-ecr
-  newTag: v0.2.0
+  newTag: v0.2.1
 - name: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/item-service
   newName: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/item-service
   newTag: v0.0.1
