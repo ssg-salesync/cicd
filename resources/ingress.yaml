@@ -1,0 +1,27 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ingress
+  annotations:
+    alb.ingress.kubernetes.io/scheme: internet-facing
+    alb.ingress.kubernetes.io/subnets: subnet-07dfacbaca88d08c6, subnet-059956a9fd9d2df09
+    alb.ingress.kubernetes.io/target-type: instance
+spec:
+  ingressClassName: alb
+  rules:
+    - http:
+        paths:
+        - path: /stores
+          pathType: Prefix
+          backend:
+            service:
+              name: service-store
+              port:
+                number: 80
+        - path: /items
+          pathType: Prefix
+          backend:
+            service:
+              name: service-item
+              port:
+                number: 80
