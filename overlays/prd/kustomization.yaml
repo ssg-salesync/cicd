@@ -6,13 +6,13 @@ images:
   newName: /
 - name: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/item-service
   newName: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/item-service
-  newTag: v0.9.11
+  newTag: v0.11.19
 - name: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/order-service
   newName: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/order-service
-  newTag: v0.9.0
+  newTag: v0.11.22
 - name: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/store-service
   newName: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/store-service
-  newTag: v0.9.10
+  newTag: v0.11.17
 
 resources:
 - ../../resources
