@@ -9,7 +9,7 @@ images:
   newTag: v0.16.0
 - name: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/order-service
   newName: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/order-service
-  newTag: v0.20.0
+  newTag: v0.20.1
 - name: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/store-service
   newName: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/store-service
   newTag: v0.19.1
