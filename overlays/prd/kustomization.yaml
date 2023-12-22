@@ -12,7 +12,7 @@ images:
   newTag: v0.20.4
 - name: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/store-service
   newName: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/store-service
-  newTag: v0.20.5
+  newTag: v0.20.6
 
 resources:
 - ../../resources
