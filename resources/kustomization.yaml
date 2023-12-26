@@ -3,6 +3,7 @@ resources:
 - store.yaml
 - item.yaml
 - order.yaml
+- sale.yaml
 
 
 apiVersion: kustomize.config.k8s.io/v1beta1
