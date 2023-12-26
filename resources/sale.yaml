@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: deploy-sale
+spec:
+  selector:
+    matchLabels:
+      app: sale
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: sale
+    spec:
+      containers:
+      - name: sale-app
+        image: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/sale-service
+        ports:
+        - containerPort: 5000
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: service-sale
+spec:
+  selector:
+    app: sale
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 5000
+  type: NodePort
