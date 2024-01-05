@@ -16,6 +16,9 @@ images:
 - name: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/store-service
   newName: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/store-service
   newTag: v0.23.11
+- name: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/dash-service
+  newName: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/dash-service
+  newTag: v0.0.1
 
 
 resources:

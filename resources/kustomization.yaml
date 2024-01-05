@@ -4,7 +4,7 @@ resources:
 - item.yaml
 - order.yaml
 - sale.yaml
-
+- dash.yaml
 
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization

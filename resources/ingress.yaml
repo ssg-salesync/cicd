@@ -39,3 +39,10 @@ spec:
               name: service-sale
               port:
                 number: 80
+        - path: /dashboard
+          pathType: Prefix
+          backend:
+            service:
+              name: service-dash
+              port:
+                number: 80
