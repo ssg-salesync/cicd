@@ -4,6 +4,9 @@ kind: Kustomization
 images:
 - name: /
   newName: /
+- name: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/dash-service
+  newName: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/dash-service
+  newTag: v0.24.5
 - name: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/item-service
   newName: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/item-service
   newTag: v0.24.0
@@ -16,9 +19,6 @@ images:
 - name: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/store-service
   newName: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/store-service
   newTag: v0.23.11
-- name: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/dash-service
-  newName: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/dash-service
-  newTag: v0.0.1
 
 
 resources:
