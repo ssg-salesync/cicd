@@ -19,6 +19,21 @@ images:
 - name: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/store-service
   newName: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/store-service
   newTag: v0.23.11
+- name: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/prod-dash-service
+  newName: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/prod-dash-service
+  newTag: v0.0.1
+- name: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/prod-item-service
+  newName: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/prod-item-service
+  newTag: v0.0.1
+- name: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/prod-order-service
+  newName: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/prod-order-service
+  newTag: v0.0.1
+- name: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/prod-sale-service
+  newName: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/prod-sale-service
+  newTag: v0.0.1
+- name: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/prod-store-service
+  newName: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/prod-store-service
+  newTag: v0.0.1
 
 
 resources:
