@@ -49,3 +49,10 @@ spec:
               name: service-dash
               port:
                 number: 80
+        - path: /consulting
+          pathType: Prefix
+          backend:
+            service:
+              name: service-consulting
+              port:
+                number: 80
