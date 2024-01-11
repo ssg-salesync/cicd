@@ -6,7 +6,7 @@ images:
   newName: /
 - name: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/dash-service
   newName: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/dash-service
-  newTag: v0.31.10
+  newTag: v0.31.16
 - name: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/item-service
   newName: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/item-service
   newTag: v0.31.11
@@ -30,13 +30,13 @@ images:
   newTag: v0.0.1
 - name: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/sale-service
   newName: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/sale-service
-  newTag: v0.31.6
+  newTag: v0.31.14
 - name: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/store-service
   newName: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/store-service
   newTag: v0.31.3
 - name: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/consulting-service
   newName: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/consulting-service
-  newTag: v0.0.1
+  newTag: v0.31.15
 
 
 resources:
