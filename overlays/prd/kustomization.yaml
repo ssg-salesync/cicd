@@ -4,6 +4,9 @@ kind: Kustomization
 images:
 - name: /
   newName: /
+- name: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/bff
+  newName: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/bff
+  newTag: v0.35.0
 - name: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/consulting-service
   newName: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/consulting-service
   newTag: v0.34.100
