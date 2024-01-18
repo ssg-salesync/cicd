@@ -56,3 +56,10 @@ spec:
               name: service-consulting
               port:
                 number: 80
+        - path: /bff
+          pathType: Prefix
+          backend:
+            service:
+              name: service-bff
+              port:
+                number: 80

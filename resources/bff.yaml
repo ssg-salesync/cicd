@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bff
+spec:
+  selector:
+    matchLabels:
+      app: bff
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: bff
+    spec:
+      containers:
+      - name: bff
+        image: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/bff
+        ports:
+        - containerPort: 5000
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: service-bff
+spec:
+  selector:
+    app: bff
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 5000
+  type: NodePort
