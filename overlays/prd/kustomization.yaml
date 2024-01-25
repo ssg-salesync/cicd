@@ -9,7 +9,7 @@ images:
   newTag: v0.36.8
 - name: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/consulting-service
   newName: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/consulting-service
-  newTag: v0.45.0
+  newTag: v0.45.2
 - name: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/dash-service
   newName: 370080849531.dkr.ecr.ap-northeast-2.amazonaws.com/dash-service
   newTag: v0.45.1
